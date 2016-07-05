@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Oh-My-ZSH
-if [ ! -d '${HOME}/.oh-my-zsh' ]; then
+if [ -d '${HOME}/.oh-my-zsh' ]; then
 	curl -L http://install.ohmyz.sh > install.sh
 	sh install.sh
 
