@@ -1,0 +1,30 @@
+################################################################################
+## Global Git Ignore File
+## Author: Adam Thompson (adam@serialphotog.com)
+################################################################################
+
+*~
+*.c~
+*.cpp~
+
+# Ignore Object Files
+*.o
+*.lo
+
+# Ignore Library Files
+*.lib
+
+# Ignore Shared Objects
+*.so
+*.dll
+
+# Ignore Executables
+*.exe
+*.out
+
+# Python Shit
+__pycache__/
+*.pyc
+
+# Other Shit
+*.DS_Store

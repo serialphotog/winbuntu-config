@@ -1,0 +1,15 @@
+[user]
+	email = adam@serialphotog.com
+	name = Adam Thompson
+[core]
+	excludesfile = /home/adam/.gitignore_global
+[alias]
+	# Make Commands Easier
+	st = status
+	c = commit -m
+	a = add -A
+	p = push -u origin master
+	# Log Aliases
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	ls = ls-files
